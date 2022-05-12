@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  b-ackground-color: #111;
+  font-size: 16px;
+}
+
+div#principal {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-justify-content {
+  justify-content: ;
+}
+
+.image-header {
+  background-image: url("https://cerncourier.com/wp-content/uploads/2019/11/Interstellar.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-header h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding-top: 150px;
+  color: #fff;
+  font-size: 3em;
+}
+
+.center {
+  text-align: center;
+}
+nav#principal {
+  padding: 4px;
+  background-color: #000022;
+  font-family: "Roboto", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+}
+
+nav#principal a {
+  font-family: monospace;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  text-decoration-color: fff;
+}
+
+nav#principal a:hover {
+  background-color: #fff;
+  color: #002;
+}
+
+.imagem-portifolio {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.img-pequena {
+  width: 200px;
+  height: 200px;
+}
+
+.img-pequena-muito {
+  width: 150px;
+  height: 150px;
+}
+
+.img-grande {
+  width: 200px;
+  height: 200px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-flex {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+/* FLEX BASIS AUTO */
+
+.basis-auto {
+  flex: 1 1 auto;
+}
+
+.flex-5 {
+  flex: 18%;
+}
+
+/* ESTILOS GERAIS */
+
+.item {
+  margin: 1px;
+
+  text-align: center;
+  font-size: 1.5em;
+
+  width: 100%;
+
+  height: 200px;
+}
+
+.item img {
+  max-width: 100%;
+  max-height: 180px;
+  margin: 5px auto;
+}
+
+/* Flex Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+/* Flex Item */
+
+h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.redonda {
+  border-radius: 50%;
+}
